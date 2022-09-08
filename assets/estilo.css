@@ -1,42 +1,81 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     font-family: 'Inter', sans-serif;
+    border: none;
 }
 
+body{
+    background-color:#010101;
+    font-size: 100%;
+}
 .cabecalho{
-
-}
-
-.container{
+    background-color: white;
     display: flex;
-    flex-direction: row; 
-    justify-content: space-between; 
-    flex-wrap: wrap; 
-    border: 20px;
-
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around; /*espaça os itens do canto mais ao centro*/
+    padding: 16px;
 }
 
 
-.menu{
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
 
 }
 
 .link{
-    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
 }
 
-.imagem{
-    background-color: black;
+.pagina-inicial{
+    background-image: url("./imgs/foguete.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pag1{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 104px;
+    /* justify-content: space-around;
+    padding: 24px; */
+}
+
+.titulo{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 72px;
+
 }
 
 .botao{
-    display: block;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #692DE9;
+    width: 360px;
+    height: 67px;
+    border-radius: 5px;
 }
 
 .box{
     background-color: rgba(3, 3, 3, 0.8);
-    padding: 10px;
+    border-radius: 5px; 
     color: white;
+    font-family: 'Inter', sans-serif;
+    width: 360px;
+    height: 184px;
+    font-size: 24px;
 }
