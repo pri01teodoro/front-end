@@ -23,7 +23,7 @@ body{
 
 .cabecalho-menu{
     display: flex;
-    gap: 32px;
+    gap: 24px;
 
 }
 
@@ -34,14 +34,14 @@ body{
     color: black;
 }
 
-.pagina-inicial{
+.imagem-inicial{
     background-image: url("./imgs/foguete.png");
     text-align: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-.pag1{
+.pag-inicial{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,4 +78,42 @@ body{
     width: 360px;
     height: 184px;
     font-size: 24px;
+    font-weight: 400;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
 }
+
+.contagem1{
+    color: #692DE9;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding-top: 16px;
+    /* padding-left: 82px; */ 
+}
+
+.contagem2{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    gap: 48px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.section2{
+    background-color: #010101;
+    background-size: 100%;
+}
+
+
+
