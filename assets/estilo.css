@@ -325,7 +325,7 @@ body{
 
 .section6{
     width: 1439px;
-    height: 700px;
+    height: 736px;
     background-color: #010101;
 }
 
@@ -386,15 +386,24 @@ body{
 
 .section7{
     width: 1440px;
-    height: 700px;
+    height: 740px;
     background: linear-gradient(90deg, #692DE9 0%, rgba(105, 45, 233, 0.5) 100%);
+    background-color: #010101;
+}
+
+.section7-container{
+    display: flex;
+    margin-right: 136px;
+    margin-left: 136px;
+    padding-top: 40px;  
+    justify-content: space-between;
 }
 
 .section7-container-form{
     display: flex;
     flex-direction: column;
     padding-top: 104px;
-    padding-left: 136px;
+    /* padding-left: 136px; */
 }
 
 .section7-titulo{
@@ -426,11 +435,93 @@ body{
 }
 
 .section7-botao{
+    margin-top: 24px;
     width: 360px;
     height: 49px;
     background: #371879;
     border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F1F1F1;
 }
+
+.section7-container-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    width: 550px;
+    height: 240px;
+}
+
+.section7-info-texto{
+    color: #F1F1F1;
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.ul {
+    list-style: none;
+}
+
+.section8{
+    background-color: #010101;
+    width: 1440px;
+    height: 1400px;
+}
+
+.section8-titulo{
+    color:#F1F1F1;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 136px;
+    text-align: center;
+}
+
+.section8-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.section8-box{
+    width: 1199px;
+    height: 110px;
+    background: #262525;
+    padding: 45px;
+    
+}
+
+/* .section8-container-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.texto-box{
+    color: #F1F1F1;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.section8-mais{
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-left: 200px;
+}
+
+
+
+
+
 
 
 
