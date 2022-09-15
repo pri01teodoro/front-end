@@ -24,8 +24,11 @@ body{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-around; /*espaça os itens do canto mais ao centro*/
+    justify-content: space-between; 
     padding: 16px;
+    padding-left: 104px;
+    padding-right: 104px;
+    
     /* width: 1440px;
     height: 120px; */
 }
@@ -33,7 +36,7 @@ body{
 
 .cabecalho-menu{
     display: flex;
-    gap: 24px;
+    gap: 8px;
 
 }
 
@@ -69,6 +72,7 @@ body{
 .titulo{
     color:#F1F1F1;
     font-family: 'Inter', sans-serif;
+    text-shadow: 0px 4px 4px rgba(1, 1, 1, 0.5);
     font-weight: 400;
     font-size: 48px;
     margin-top: 72px;
@@ -473,7 +477,7 @@ span {
 .section8{
     background-color: #010101;
     width: 1440px;
-    height: 1400px;
+    height: 1320px;
 }
 
 .section8-titulo{
@@ -495,28 +499,95 @@ span {
     width: 1199px;
     height: 110px;
     background: #262525;
-    padding: 45px;
-    
+    margin-bottom: 8px;
 }
 
-/* .section8-container-box{
+.section8-container-box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-} */
+    margin: 32px;
+}
 
 .texto-box{
     color: #F1F1F1;
     font-weight: 400;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .section8-mais{
     font-weight: 400;
     font-size: 32px;
     color: #FFFFFF;
-    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.section8-container-foguete{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 1312px;
+    margin-top: 104px;
+}
+
+.section8-foguete{
+    background: #5E28D0;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 5px 5px 0px 0px;
+    width: 58px;
+    height: 63px;
+    padding-top: 5px;
+    padding-left: 3px;
+
+}
+
+.footer{
+    width: 1440px;
+    height: 194px;
+    background: #D9D9D9;
+}
+
+.footer-container{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 32px;
+    padding-left: 144px;
+    padding-right: 176px;
+}
+
+.footer-container-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 24px;
+
+}
+
+.footer-texto{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #010101;
+    font-family: 'Quicksand';
+    margin-left: 672px;
+    margin-bottom: 8px;
+}
+
+.footer-texto2{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #010101;
+    font-family: 'Quicksand';
+    margin-bottom: 8px;
+}
+
+
 
 
 
