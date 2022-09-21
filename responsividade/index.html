@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .cabecalho{
+        background-color: blueviolet;
+    }
+
+    .titulo_site{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto; /* zera de cima e embaixo e deixa automatico dos lados (centraliza) */
+        background-color: blueviolet; /* deixa uma caixa dentro da outra */
+        color: white;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media(max-width: 700px){
+        .titulo_site{
+            text-align: center; /* quando a tela for menor que 700px, o titulo é centralizado */
+            flex-direction: column;
+        }
+    }
+
+    .lista_links{
+        list-style: none;
+        display: flex;
+    }
+
+    @media (max-width: 700px){ /* quando a tela for menor que 700px coloca o menu debaixo do outro -- breakpoint/ponto de quebra*/ 
+        .lista_links{
+            flex-direction: column;
+        }
+    }
+
+    .link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .link:hover{ /* coloca linha embaixo quando seleciona o menu */
+        border-bottom: 3px white solid;
+    }
+</style>
+<body>
+    
+    <header class="cabecalho">
+        <div class="titulo_site">
+            <h1>Semana do CST em ADS</h1>
+            <ul class="lista_links">
+                <li><a href="#" class="link">Inicio</a></li>
+                <li><a href="#" class="link">Inicio</a></li>
+                <li><a href="#" class="link">Inicio</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
