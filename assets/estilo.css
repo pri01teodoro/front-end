@@ -47,6 +47,9 @@ body{
     color: black;
 }
 
+.link:hover{ 
+    border-bottom: 3px solid #5E28D0;
+}
 /* .imagem-inicial{
     background-image: url("./imgs/foguete.png");
     text-align: center;
