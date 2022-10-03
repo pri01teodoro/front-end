@@ -242,26 +242,24 @@ a:nth-child(1) {
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
-    padding-left: 144px;
-    padding-right: 176px;
+    margin-left: 144px;
+    margin-right: 176px;
 }
 
 .footer-container-texto{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 24px;
+    width: 100%;
+    margin-right: 26px;
 
 }
 
-.footer-texto{
+.footer-texto1{
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
-    color: #010101;
-    font-family: 'Quicksand';
-    margin-left: 672px;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 
 .footer-texto2{
