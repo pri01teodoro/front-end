@@ -109,7 +109,7 @@
 
 .container-section{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     margin: 133px 120px;
 }
@@ -123,6 +123,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 23px;
+    margin-left: 22px;
 }
 
 .card-imagem1{
@@ -266,9 +267,6 @@ a:nth-child(1) {
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    color: #010101;
-    font-family: 'Quicksand';
-    margin-bottom: 8px;
 }
 
 
