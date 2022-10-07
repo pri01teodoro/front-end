@@ -65,6 +65,7 @@
     }
 }
 
+
 .container-main{
     display: flex;
     justify-content: space-between;
@@ -132,9 +133,10 @@
 
 .container-section{
     display: flex;
+    width: 1200px;
     /* justify-content: space-between; */
     flex-wrap: wrap;
-    margin: 133px 120px;
+    margin: auto;
 }
 
 .card{
@@ -146,7 +148,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 23px;
-    margin-left: 22px;
+    margin-right: 13px
 }
 
 .card-imagem1{
@@ -229,7 +231,8 @@
 
 .paginacao{
     display: flex;
-    margin-left: 122px;
+    width: 1200px;
+    margin: auto;
     margin-top: 57px;
 }
 
@@ -258,15 +261,11 @@
 }
   
 /* pagination hover effect on active */
-a:nth-child(1) {
+.paginacao a:nth-child(1) {
     background-color: #0055B7;
     color: white;
 }
 
-.a1{
-    background-color: #0055B7;
-    color: white;
-}
 
 .footer{
     height: 194px;
@@ -278,8 +277,10 @@ a:nth-child(1) {
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
-    margin-left: 144px;
-    margin-right: 176px;
+    width: 1200px;
+    margin: auto;
+    /* margin-left: 144px;
+    margin-right: 176px; */
 }
 
 .footer-container-texto{
@@ -288,6 +289,7 @@ a:nth-child(1) {
     align-items: flex-end;
     width: 100%;
     margin-right: 26px;
+    margin-top: 15px;
 
 }
 
